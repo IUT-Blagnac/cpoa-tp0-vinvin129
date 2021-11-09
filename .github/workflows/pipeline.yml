@@ -13,7 +13,7 @@ jobs:
           java-version: '16'
           distribution: 'adopt'
       - name: Change directory
-        run: cd RE_2021_tutorial
+        run: echo pwd
       - name: Build with Maven
         run: mvn --batch-mode clean package -DskipTests
       - name: Store JAR file
