@@ -18,4 +18,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: app
-          path: target/re-21-SHADED.jar
+          path: RE_2021_tutorial/target/re-21-SHADED.jar
